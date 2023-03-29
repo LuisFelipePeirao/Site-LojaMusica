@@ -1,0 +1,361 @@
+/* Pagina Inicial  */
+
+.corpo {
+    box-sizing: border-box;
+    background-color: #418838;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-musica_53876-90526.jpg);
+    background-size: cover;
+    
+}
+
+section {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+article > h2 {
+
+    text-align: center;
+    padding: 10px 10px auto;
+}
+
+.botao-verproduto {
+    text-align: center;
+    padding: 20px 20px ;
+}
+
+.botao-verproduto a {
+    background-color: #2ada13;
+    box-shadow: 2px 2px 2px #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-verproduto a:hover {
+    background-color: #418838;
+    box-shadow: 2px 2px 2px #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Barra de navegação */
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+
+nav .logo{
+    color: #2ada13;
+    float: left;
+    display: block;
+    margin: 2px  30px auto;
+    padding: 14px 16px;
+    font-size: 30pt;
+    font-family: Impact;
+}
+
+nav a{
+    color: white;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+
+.botao {
+    color: white;
+    background-color: black;
+    margin: 15px  30px auto;
+    padding: 30px;
+    nav-left: auto;
+    left: initial;
+    font-size: 15pt;
+}
+
+/* Tela de login e cadastro*/
+
+.fundologin{
+    background-image: url(imagens/fundo/hendrix.jpg);
+    background-size: cover;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin:  10% auto;
+    max-width: 500px;
+    padding: 20px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 30pt;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 19pt;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.voltar{
+    color: black;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+button[type="submit"] {
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto 0;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #888888;
+}
+
+.link {
+    color: #666;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    color: #000000;
+    text-decoration: none;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+/* Tela de Carrinho */
+
+.corpocarrinho {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px rgb(77, 72, 72);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ccc;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table td img {
+    max-width: 100px;
+}
+
+table td span {
+    display: block;
+    font-size: 14px;
+    color: #666;
+}
+
+table td a {
+    color: #c21b00;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.subtotal {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.compra {
+    text-align: right;
+}
+
+.compra a {
+    background-color: #2ada13;
+    box-shadow: 2px 2px 2px #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.compra a:hover {
+    background-color: #418838;
+    box-shadow: 2px 2px 2px #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+/* Tela de detalhe do produto */
+
+.corpoproduto {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.produto {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    padding-top: 10%;
+}
+
+.produto img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.produto h1 {
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.produto .preco {
+    font-size: 19pt;
+    border-style: double;
+    border-color: black;
+    color: #2ada13;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px;
+}
+
+.produto .descricao {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.produto .detalhes {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.produto .detalhes li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: wrap;
+    text-align: center;
+}
+
+.div-botao-comprar {
+
+    text-align: center;
+}
+
+ .botao-comprar {
+    background-color: #2ada13;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+ .botao-comprar:hover {
+    background-color: #418838;
+}
+
