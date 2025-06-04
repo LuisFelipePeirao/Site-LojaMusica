@@ -95,8 +95,7 @@ nav a{
     background-color: black;
     margin: 15px  30px auto;
     padding: 30px;
-    nav-left: auto;
-    left: initial;
+    margin-left: auto;
     font-size: 15pt;
 }
 
